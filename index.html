@@ -180,12 +180,8 @@
     </div>
 </body>
 <script>
-    var time = window.setInterval(function() {
-        var Height = document.documentElement.clientHeight
-        var Width = document.documentElement.clientWidth
-    },1000)
-    window.clearInterval(time)
-    
+    var Height = document.documentElement.clientHeight
+    var Width = document.documentElement.clientWidth
     if(Height > Width) {
         document.getElementById("h1").style.fontSize="50px";
         document.getElementById("name1").style.fontSize="20px";
